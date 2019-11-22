@@ -73,6 +73,8 @@ license: CC-BY-NC-4.0 # "CC-BY-4.0", "CC-BY-SA-4.0", "CC-BY-NC-4.0", "CC-BY-ND-4
 toc:
   selectors: "h1,h2,h3,h4,h5"
 
+## publish time in future
+future: true # to show the post if date is in future
 
 ## => Markdown Enhancements
 ##############################
@@ -201,6 +203,7 @@ defaults:
       show_edit_on_github: false
       show_subscribe: true
       pageview: true
+      permalink: /:categories/:title:output_ext
 
 
 ## => Plugins
