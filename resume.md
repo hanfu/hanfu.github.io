@@ -7,6 +7,7 @@ aside:
 header: false
 # footer: false
 permalink: /resume.html
+sitemap: false
 ---
 # Hanfu Zhao
 
