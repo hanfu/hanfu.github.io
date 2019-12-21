@@ -22,11 +22,11 @@ sitemap: false
 ## 教育
 
 ### 哥伦比亚大学
-- 土木工程硕士, 2014.05
+- 土木工程硕士, 毕业于2014年5月
 - 毕业设计: 绿色河滨 - 滨水功能性湿地与慢行交通网在New Rochelle的应用, ISBN:[9781312764637](http://www.lulu.com/us/en/shop/urban-design-lab/alternative-futures-for-new-rochelle/ebook/product-21958564.html)
 
 ### 宾夕法尼亚州立大学
-- 农业工程学士, 环境工程辅修, 2012.05
+- 农业工程学士, 环境工程辅修, 毕业于2012年5月
 
 # 工作
 
