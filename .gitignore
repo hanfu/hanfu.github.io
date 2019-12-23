@@ -1,8 +1,14 @@
+# my file
+_make_docx.py
+_notes.md
+todoc.sh
+*.doc
+*.docx
+
 # General
 .DS_Store
 .AppleDouble
 .LSOverride
-notes.md
 
 
 # Thumbnails

@@ -2,6 +2,7 @@
 layout: article
 key: page-about
 show_title: false
+title: 简历
 aside:
   toc: true
 header: false
@@ -13,52 +14,47 @@ sitemap: false
 
 翰夫是一名城市规划师和数据科学家. 他曾任职于美国费城市政府与中国建设部直属规划单位. 他参与过国家重点工程规划, 也为多种行业提供数据咨询服务, 包括网络信息采集, 数据挖掘, 可视化交互平台. 他的近期目标是应用大规模数据挖掘赋能业务增长.
 
-
-[English Ver. →](/resume.html){:.button.button--secondary.button--pill} 
-[下载PDF ↓](/assets/jianli.pdf){:.button.button--secondary.button--pill} 
-[发邮件 ↑](mailto:zhhfu29@gmail.com){:.button.button--secondary.button--pill}
-[回网站 ←](/){:.button.button--secondary.button--pill}
+<sup>[下载PDF ↓](/assets/jianli.pdf){:.button.button--secondary.button--pill} [发邮件 ↑](mailto:zhhfu29@gmail.com){:.button.button--secondary.button--pill} [回网站 ←](/){:.button.button--secondary.button--pill} [English Ver. →](/resume.html){:.button.button--secondary.button--pill}</sup>
 
 ## 教育
 
 ### 哥伦比亚大学
 - 土木工程硕士, 毕业于2014年5月.
-- 毕业设计: _绿色河滨 - 滨水功能性湿地与慢行交通网在New Rochelle的应用_, ISBN:[9781312764637](http://www.lulu.com/us/en/shop/urban-design-lab/alternative-futures-for-new-rochelle/ebook/product-21958564.html).
+- 毕业设计: _绿色河滨 - 滨水功能性湿地与慢行交通网在New Rochelle的应用_ <sup>ISBN:[9781312764637](http://www.lulu.com/us/en/shop/urban-design-lab/alternative-futures-for-new-rochelle/ebook/product-21958564.html)</sup>.
 
 ### 宾夕法尼亚州立大学
 - 农业工程学士, 环境工程辅修, 毕业于2012年5月.
 
-## 项目
+## 独立项目
 
-### 广告CTR预估竞赛
-- 以COLAB为计算平台, 实现类似KDD2019 DeepGBM的神经网络与决策树结合的深度学习模型<sup>[notebook](/)</sup>.
-- 神经网络部分使用 __`Tensorflow`__ 开源框架, 用FM结构处理稀疏数据并后接全连接神经网络.
-- 决策树部分使用 __`XGBoost`__ 开源框架, 负责处理稠密数据并且自动生成多项特征交叉.
-- 模型融合, 验证, 
-- 成绩达到Kaggle银牌.
+### KDD2019 CTR预测模型复现
+- 以COLAB为计算平台, 复现KDD2019 DeepGBM (Ke et al, 2019) 神经网络与决策树结合的深度学习模型<sup>[notebook](/)</sup>.
+- 使用 __`PyTorch`__ 搭建因子分解机处理稀疏数据, 获得嵌入向量.
+并后接全连接神经网络.
+- 使用 __`XGBoost`__ 搭建梯度提升树处理稠密数据, 并且自动生成多项特征交叉.
+- 提炼提升树结果的神经网络表征, 并和嵌入向量一起训练.
+- 结合特征预处理, 超参数优化等技巧, 模型表现达到Kaggle银牌, 逼近论文结果.
 
 ### 政府人事数据平台产品
-- 使用 __`Scrapy`__ 等采集框架处理网站和新闻流, 并清洗数据归纳出人物履历, 覆盖了两千余名副部级及以上官员.
+- 使用 __`Scrapy`__ 等采集框架处理网站和新闻流, 并清洗数据归纳出人物履历, 覆盖90%以上的副部级及以上官员.
 - 以 __`Neo4j`__ 图数据库突出人物之间的关系, 结合 __`Flask`__ 和 __`Dash`__ 制作成PaaS产品, 使用 __`Docker`__ 云端部署<sup>[demo](/)</sup>.
-- 是目前可找到的最全面最有时效性的官方人事数据库, 主要付费客户为智库和投资机构.
+- 因其健全的数据和出色的时效性, 数据库的付费订阅深受智库和投资机构青睐.
 
 
 ### 数据科学与机器学习的培训
-- 为内部及友好单位进行[ __`R`__ ](/data/R-Introduction), __`Python`__, 应用统计等线下培训.
-- 为机器学习的数学, 概率论等基础课程编写系列教程 [祖传机器学习](https://zh.vintageml.com)(中文), [Vintage Machine Learning](https://en.vintageml.com) (English).
+- 为机构内部及友好单位进行 __`R`__ , __`Python`__, 应用统计等数据培训<sup>[demo](/data/R-Introduction)</sup>.
+- 以微积分, 线性代数, 概率论等基础内容为重点, 编写机器学习系列教程 <sup>[中文](https://zh.vintageml.com)|[English](https://en.vintageml.com)</sup>.
 
-# 工作
 
 ## 中国城市规划设计研究院
 
 ### 城市共享单车的数据平台
-- 使用 __`Flask`__ 和 __`Dash`__ 搭建了地理数据平台<sup>[demo](/)</sup>.
-- 使用 __`Python`__ 建立时序模型, 找出显著的用户习惯和异常区域.
-- 辅助行业人员对城市规模的共享单车运营进行直观了解, 制定管理机制.
+- 使用 __`Python`__ 建立时空模型, 找出显著的用户习惯和异常区域.
+- 对城市规模的共享单车运营进行直观展示,并以数据模型辅助行业人员制定管理机制.
 
 ## 美国费城市水务局
 
-### 费城绿色基建项目规划
-- 为总投入15亿美金的城市基础建设更新项目提供技术咨询和项目管理, 帮助市政府满足联邦环境署的5年阶段验收.
-- 使用 __`R`__ 和 __`PostgreSQL`__ 搭建雨水检测数据平台,实现数据的自动收集,处理,备份,输出表现评分以供决策.
+### 城市暴雨基础建设
+- 为15亿美金的城市暴雨基础建设更新项目提供技术咨询和项目管理, 帮助市政府顺利通过联邦环境署的5年阶段验收.
+- 使用 __`R`__ 和 __`PostgreSQL`__ 搭建雨水检测数据平台,实现数据的自动收集,处理,备份,输出表现评分以供决策<sup>[demo](/)</sup>.
 - 项目管理首次使用新技术的试点工程实施, 协调五所合作高校的联邦环境署科研项目.
