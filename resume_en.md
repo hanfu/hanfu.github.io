@@ -29,11 +29,10 @@ Hanfu is an urban planner and data scientist. He was employed by Philadelphia Ci
 
 ### KDD2019 CTR Prediction Model Implementation
 - 以COLAB为计算平台, 复现KDD2019 DeepGBM (Ke et al, 2019) 神经网络与决策树结合的深度学习模型<sup>[notebook](/)</sup>.
-- 使用 __`PyTorch`__ 搭建因子分解机处理稀疏数据, 获得嵌入向量.
-并后接全连接神经网络.
-- 使用 __`XGBoost`__ 搭建梯度提升树处理稠密数据, 并且自动生成多项特征交叉.
-- 提炼提升树结果的神经网络表征, 并和嵌入向量一起训练.
-- 结合特征预处理, 超参数优化等技巧, 模型表现达到Kaggle银牌, 逼近论文结果.
+- Use Factorization Machine to embed sparse categorical features using __`PyTorch`.
+- Use Gradient Boosting Decision Tree to automate high-order feature crossings on dense numerical inputs using __`XGBoost`__.
+- Distill GBDT results to Nueral Network representations, and train them together with embedded vectors from FM as a whole.
+- Applied appropriate feature encoding and hyperparameter tuning to reach paper's result.
 
 ### CPC Member Data Portal
 - Collected and cleaned Party's membership information from static and streaming sources using __`Scrapy`__, covering more than 90% officials at deputy ministerial level and above.
