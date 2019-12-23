@@ -28,7 +28,7 @@ sitemap: false
 ## 独立项目
 
 ### KDD2019 CTR预测模型复现
-- 以COLAB为计算平台, 复现KDD2019 DeepGBM (Ke et al, 2019) 神经网络与决策树结合的深度学习模型<sup>[notebook](/)</sup>.
+- 以COLAB为计算平台, 复现KDD2019 DeepGBM (_Ke et al, 2019_) 神经网络与决策树结合的深度学习模型<sup>[notebook](/)</sup>.
 - 使用 __`PyTorch`__ 搭建因子分解机处理稀疏数据, 获得嵌入向量.
 - 使用 __`XGBoost`__ 搭建梯度提升树处理稠密数据, 并且自动生成多项特征交叉.
 - 提炼提升树结果的神经网络表征, 并和嵌入向量一起训练.
