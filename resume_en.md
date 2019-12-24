@@ -12,7 +12,7 @@ sitemap: false
 ---
 # Hanfu Zhao
 
-Hanfu is an civil engineer and data scientist. He was employed by Philadelphia City Gov., and now China Ministry of Development's research institute. Not only was he involved in national planning programs, but also provided data consultancy across different disciplines and sectors. He is interested in practical massive data mining and collaborative intelligence.
+Hanfu is a civil engineer and data scientist. He was employed by Philadelphia City Gov., and now China Ministry of Development's research institute. Not only was he involved in national civil programs, but also provided data consultancy across different disciplines and sectors. He is interested in practical massive data mining and collaborative intelligence.
 
 <sup>[Download PDF ↓](/assets/jianli.pdf){:.button.button--secondary.button--pill} [Email Hanfu ↑](mailto:zhhfu29@gmail.com){:.button.button--secondary.button--pill} [Back to Site ←](/){:.button.button--secondary.button--pill} [中文版 →](/jianli.html){:.button.button--secondary.button--pill}</sup>
 
@@ -42,7 +42,7 @@ Hanfu is an civil engineer and data scientist. He was employed by Philadelphia C
 
 ### Data Science Advocacy
 - Lectured data seminars for internal and affiliated institutes, covering __`R`__ , __`Python`__, and applied statistics<sup>[demo](/data/R-Introduction)</sup>.
-- Drafting Machine Learning tutorial series, focusing on fundamentals like Calculus, Linear Algebra, Probabilities and so<sup>[English](https://en.vintageml.com)|[中文](https://zh.vintageml.com)</sup>.
+- Drafting Machine Learning tutorial series, focusing on the fundamentals like Calculus, Linear Algebra, Probabilities and so<sup>[English](https://en.vintageml.com)|[中文](https://zh.vintageml.com)</sup>.
 
 ## Work Experience
 
