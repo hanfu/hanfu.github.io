@@ -28,7 +28,7 @@ Hanfu is a civil engineer and data scientist. He was employed by Philadelphia Ci
 ## Independent Projects
 
 ### KDD2019 CTR Prediction Model Implementation
-- Implemented KDD2019 DeepGBM (_Ke et al, 2019_), a Deep-Learning model combining Neural Network and Gradient Boosting Decision Tree, in COLAB computing platform<sup>[notebook](/)</sup>.
+- Implemented KDD2019 DeepGBM (_Ke et al, 2019_), a Deep-Learning model combining Neural Network and Gradient Boosting Decision Tree, in COLAB computing platform<sup>[notebook](https://colab.research.google.com/drive/1CDmORVtj6mDm-pXy-Nhe5EkK2Vx-WPYk)</sup>.
 - Used Factorization Machine to embed sparse categorical features using __`PyTorch`__.
 - Used Gradient Boosting Decision Tree to automate high-order feature crossings on dense numerical inputs using __`XGBoost`__.
 - Distilled GBDT's information to Neural Network representation, joined with the previous embedded vectors, then trained the model in both End-to-End Offline Learning mode, and Online Learning mode for streaming data.
