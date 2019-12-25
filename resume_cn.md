@@ -14,7 +14,7 @@ sitemap: false
 
 翰夫是一名土木工程师和数据科学家. 他曾任职于美国费城市政府与中国建设部直属规划单位. 他参与过国家重点工程规划, 也为多种行业提供数据咨询服务, 包括网络信息采集, 数据挖掘, 可视化交互平台. 他的近期目标是应用大规模数据挖掘赋能业务增长.
 
-<sup>[下载PDF ↓](/assets/jianli.pdf){:.button.button--secondary.button--pill} [发邮件 ↑](mailto:zhhfu29@gmail.com){:.button.button--secondary.button--pill} [回网站 ←](/){:.button.button--secondary.button--pill} [English Ver. →](/resume.html){:.button.button--secondary.button--pill}</sup>
+<sup>[下载PDF ↓](/assets/jianli.pdf){:.button.button--secondary.button--pill} [发邮件 ↑](mailto:{{ site.email }}){:.button.button--secondary.button--pill} [回网站 ←](/){:.button.button--secondary.button--pill} [English Ver. →](/resume.html){:.button.button--secondary.button--pill}</sup>
 
 ## 教育
 
@@ -28,15 +28,15 @@ sitemap: false
 ## 独立项目
 
 ### KDD2019 CTR预测模型复现
-- 以COLAB为计算平台, 复现KDD2019 DeepGBM (_Ke et al, 2019_) 神经网络与决策树结合的深度学习模型<sup>[notebook](https://colab.research.google.com/drive/1CDmORVtj6mDm-pXy-Nhe5EkK2Vx-WPYk)</sup>.
+- 复现KDD2019 DeepGBM (_Ke et al, 2019_) 神经网络与决策树结合的深度学习模型<sup>[demo](https://www.kaggle.com/hanfuzhao/deepgbm-script)</sup>.
 - 使用 __`PyTorch`__ 搭建因子分解机处理稀疏数据, 获得嵌入向量.
 - 使用 __`XGBoost`__ 搭建梯度提升树处理稠密数据, 获得高维特征交叉.
 - 提炼提升树模型的神经网络表征, 加入之前的嵌入向量 ,一起进行端到端的离线学习和新数据的在线学习.
-- 结合特征预处理, 超参数优化等技巧, 模型表现达到Kaggle银牌, 逼近论文结果.
+- 结合特征预处理, 超参数优化等技巧, 逼近论文结果.
 
 ### 政府人事数据平台产品
 - 使用 __`Scrapy`__ 等采集框架处理网站和新闻流, 并清洗数据归纳出人物履历, 覆盖90%以上的副部级及以上官员.
-- 以 __`Neo4j`__ 图数据库突出人物之间的关系, 结合 __`Flask`__ 和 __`Dash`__ 制作成PaaS产品, 使用 __`Docker`__ 云端部署<sup>[demo](/)</sup>.
+- 以 __`Neo4j`__ 图数据库突出人物之间的关系, 结合 __`Flask`__ 和 __`Dash`__ 制作成PaaS产品, 使用 __`Docker`__ 云端部署<sup>[demo](https://plenum-demo.hanfu.us/)</sup>.
 - 因其健全的数据和出色的时效性, 数据库的付费订阅深受智库和投资机构青睐.
 
 
@@ -47,7 +47,7 @@ sitemap: false
 ## 工作经历
 
 ### 中国城市规划设计研究院
-- 使用 __`R`__ 和 __`PostgreSQL`__ 搭建地理数据可视化平台, 直观展示城市规模的共享单车运营, 并以时空数据模型支持管理决策<sup>[demo](/)</sup>.
+- 使用 __`R`__ 和 __`MongoDB`__ 搭建地理数据可视化平台, 直观展示城市规模的共享单车运营, 并以时空数据模型支持管理决策<sup>[demo](https://geodash-demo.hanfu.us/)</sup>.
 - 参与北京城市副中心水资源与水环境总体规划; 参与武汉,株洲等海绵城市专项试点的规划.
 
 ### 美国费城市水务局
