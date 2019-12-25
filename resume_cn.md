@@ -14,7 +14,7 @@ sitemap: false
 
 翰夫是一名土木工程师和数据科学家. 他曾任职于美国费城市政府与中国建设部直属规划单位. 他参与过国家重点工程规划, 也为多种行业提供数据咨询服务, 包括网络信息采集, 数据挖掘, 可视化交互平台. 他的近期目标是应用大规模数据挖掘赋能业务增长.
 
-<sup>[下载PDF ↓](/assets/jianli.pdf){:.button.button--secondary.button--pill}{:target="_blank"} [发邮件 ↑](mailto:{{ site.email }}){:.button.button--secondary.button--pill}{:target="_blank"} [回网站 ←](/){:.button.button--secondary.button--pill} [English Ver. →](/resume.html){:.button.button--secondary.button--pill}</sup>
+<sup>[下载PDF ↓](/assets/赵翰夫_简历.pdf){:.button.button--secondary.button--pill}{:target="_blank"} [发邮件 ↑](mailto:{{ site.email }}){:.button.button--secondary.button--pill}{:target="_blank"} [回网站 ←](/){:.button.button--secondary.button--pill} [English Ver. →](/resume.html){:.button.button--secondary.button--pill}</sup>
 
 ## 教育
 
@@ -22,8 +22,9 @@ sitemap: false
 - 土木工程硕士, 毕业于2014年5月.
 - 毕业设计: _绿色河滨 - 滨水功能性湿地与慢行交通网在New Rochelle的应用_ <sup>ISBN:[9781312764637](http://www.lulu.com/us/en/shop/urban-design-lab/alternative-futures-for-new-rochelle/ebook/product-21958564.html){:target="_blank"}</sup>.
 
+
 ### 宾夕法尼亚州立大学
-- 农业工程学士, 环境工程辅修, 毕业于2012年5月.
+- 生物工程学士, 环境工程辅修, 毕业于2012年5月.
 
 ## 独立项目
 
@@ -36,7 +37,7 @@ sitemap: false
 
 ### 政府人事数据平台产品
 - 使用 __`Scrapy`__ 等采集框架处理网站和新闻流, 并清洗数据归纳出人物履历, 覆盖90%以上的副部级及以上官员.
-- 以 __`Neo4j`__ 图数据库突出人物之间的关系, 结合 __`Flask`__ 和 __`Dash`__ 制作成PaaS产品, 使用 __`Docker`__ 云端部署<sup>[demo](https://plenum-demo.hanfu.us/){:target="_blank"}</sup>.
+- 以 __`Neo4j`__ 图数据库突出人物之间的关系, 结合 __`Flask`__ 和 __`Dash`__ 制作成云端数据库产品, 使用 __`Docker`__ 部署<sup>[demo](https://plenum-demo.hanfu.us/){:target="_blank"}</sup>.
 - 因其健全的数据和出色的时效性, 数据库的付费订阅深受智库和投资机构青睐.
 
 

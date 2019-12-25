@@ -14,7 +14,7 @@ sitemap: false
 
 Hanfu is a civil engineer and data scientist. He was employed by Philadelphia City Gov., and now China Ministry of Development's research institute. Not only was he involved in national civil programs, but also provided data consultancy across different disciplines and sectors. He is interested in practical massive data mining and collaborative intelligence.
 
-<sup>[Download PDF ↓](/assets/resume.pdf){:.button.button--secondary.button--pill}{:target="_blank"} [Email Hanfu ↑](mailto:{{ site.email }}){:.button.button--secondary.button--pill}{:target="_blank"} [Back to Site ←](/){:.button.button--secondary.button--pill} [中文版 →](/jianli.html){:.button.button--secondary.button--pill}</sup>
+<sup>[Download PDF ↓](/assets/HZhao_Resume.pdf){:.button.button--secondary.button--pill}{:target="_blank"} [Email Hanfu ↑](mailto:{{ site.email }}){:.button.button--secondary.button--pill}{:target="_blank"} [Back to Site ←](/){:.button.button--secondary.button--pill} [中文版 →](/jianli.html){:.button.button--secondary.button--pill}</sup>
 
 ## Education
 
@@ -22,8 +22,9 @@ Hanfu is a civil engineer and data scientist. He was employed by Philadelphia Ci
 - Master of Science in Civil Engineering, graduated in May, 2014.
 - Thesis: _Green Belt - Engineered Coastal Wetland with Slow Traffic Network in City of New Rochelle_ <sup>ISBN:[9781312764637](http://www.lulu.com/us/en/shop/urban-design-lab/alternative-futures-for-new-rochelle/ebook/product-21958564.html){:target="_blank"}</sup>.
 
+
 ### Pennsylvania State University
-- Bachelors of Science in Agricultural Engineering, minor in Environmental Engineering, graduated in May, 2012.
+- Bachelors of Science in Biological Engineering, minor in Environmental Engineering, graduated in May, 2012.
 
 ## Independent Projects
 
@@ -36,13 +37,14 @@ Hanfu is a civil engineer and data scientist. He was employed by Philadelphia Ci
 
 ### CPC Member Data Portal
 - Collected and cleaned Party's membership information from static and streaming sources to chronological records using __`Scrapy`__, covering more than 90% officials at deputy ministerial level and above.
-- Packaged data into PaaS product with __`Neo4j`__ graph database, __`Flask`__ and __`Dash`__ web frameworks, and __`Docker`__ deployment<sup>[demo](https://plenum-demo.hanfu.us/){:target="_blank"}</sup>.
+- Packaged data to cloud service with __`Neo4j`__ graph database, __`Flask`__ and __`Dash`__ web frameworks, and __`Docker`__ deployment<sup>[demo](https://plenum-demo.hanfu.us/){:target="_blank"}</sup>.
 - Proofed robustness and timeliness by large amount of subscriptions from think-tanks and investment institutes.
 
 
 ### Data Science Advocacy
 - Lectured data seminars for internal and affiliated institutes, covering __`R`__ , __`Python`__, and applied statistics<sup>[demo](/data/R-Introduction){:target="_blank"}</sup>.
 - Drafting Machine Learning tutorial series, focusing on the fundamentals like Calculus, Linear Algebra, Probabilities and so<sup>[English](https://en.vintageml.com){:target="_blank"}|[中文](https://zh.vintageml.com){:target="_blank"}</sup>.
+
 
 ## Work Experience
 
