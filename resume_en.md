@@ -38,7 +38,6 @@ Hanfu is a civil engineer and data scientist. He was employed by Philadelphia Ci
 ### CPC Member Data Portal
 - Collected and cleaned Party's membership information from static and streaming sources to chronological records using __`Scrapy`__, covering more than 90% officials at deputy ministerial level and above.
 - Packaged data to cloud service with __`Neo4j`__ graph database, __`Flask`__ and __`Dash`__ web frameworks, and __`Docker`__ deployment<sup>[demo](https://plenum-demo.hanfu.us/){:target="_blank"}</sup>.
-- Proofed robustness and timeliness by large amount of subscriptions from think-tanks and investment institutes.
 
 
 ### Data Science Advocacy
