@@ -1,7 +1,7 @@
 # my file
 _make_docx.py
 _notes.md
-todoc.sh
+*.sh
 *.doc
 *.docx
 
